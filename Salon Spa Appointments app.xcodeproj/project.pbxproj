@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BAC5EE0444914B19197B0BF /* Pods_Salon_Spa_Appointments_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF37C2A70FCE1860B9781B97 /* Pods_Salon_Spa_Appointments_app.framework */; };
 		9601171F2369BDA6009014EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601171E2369BDA6009014EA /* AppDelegate.swift */; };
 		960117212369BDA6009014EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960117202369BDA6009014EA /* SceneDelegate.swift */; };
 		960117232369BDA6009014EA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960117222369BDA6009014EA /* FirstViewController.swift */; };
 		960117252369BDA6009014EA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960117242369BDA6009014EA /* SecondViewController.swift */; };
 		960117282369BDA6009014EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960117262369BDA6009014EA /* Main.storyboard */; };
 		9601172A2369BDA9009014EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960117292369BDA9009014EA /* Assets.xcassets */; };
+		966A680A23730B1900068810 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 966A680923730B1900068810 /* GoogleService-Info-2.plist */; };
+		96AB951723705C54008A932E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AB951623705C54008A932E /* ThirdViewController.swift */; };
 		CC599FD82369C9D300D4BD96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC599FD72369C9D300D4BD96 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E4AEC13D4B58B8B7E15F8B6 /* Pods-Salon Spa Appointments app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salon Spa Appointments app.release.xcconfig"; path = "Target Support Files/Pods-Salon Spa Appointments app/Pods-Salon Spa Appointments app.release.xcconfig"; sourceTree = "<group>"; };
+		845E07F4624958DD6378715E /* Pods-Salon Spa Appointments app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salon Spa Appointments app.debug.xcconfig"; path = "Target Support Files/Pods-Salon Spa Appointments app/Pods-Salon Spa Appointments app.debug.xcconfig"; sourceTree = "<group>"; };
 		9601171B2369BDA6009014EA /* Salon Spa Appointments app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salon Spa Appointments app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9601171E2369BDA6009014EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		960117202369BDA6009014EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,6 +30,9 @@
 		960117272369BDA6009014EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		960117292369BDA9009014EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9601172E2369BDA9009014EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966A680923730B1900068810 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		96AB951623705C54008A932E /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		AF37C2A70FCE1860B9781B97 /* Pods_Salon_Spa_Appointments_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Salon_Spa_Appointments_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC599FD72369C9D300D4BD96 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,17 +41,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BAC5EE0444914B19197B0BF /* Pods_Salon_Spa_Appointments_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DABD3D60B4E3AAE048B4B6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF37C2A70FCE1860B9781B97 /* Pods_Salon_Spa_Appointments_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9063A6897890C48603765952 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				845E07F4624958DD6378715E /* Pods-Salon Spa Appointments app.debug.xcconfig */,
+				7E4AEC13D4B58B8B7E15F8B6 /* Pods-Salon Spa Appointments app.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		960117122369BDA6009014EA = {
 			isa = PBXGroup;
 			children = (
 				9601171D2369BDA6009014EA /* Salon Spa Appointments app */,
 				9601171C2369BDA6009014EA /* Products */,
+				9063A6897890C48603765952 /* Pods */,
+				3DABD3D60B4E3AAE048B4B6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,8 +91,10 @@
 				960117202369BDA6009014EA /* SceneDelegate.swift */,
 				960117222369BDA6009014EA /* FirstViewController.swift */,
 				960117242369BDA6009014EA /* SecondViewController.swift */,
+				96AB951623705C54008A932E /* ThirdViewController.swift */,
 				960117262369BDA6009014EA /* Main.storyboard */,
 				CC599FD72369C9D300D4BD96 /* LaunchScreen.storyboard */,
+				966A680923730B1900068810 /* GoogleService-Info-2.plist */,
 				960117292369BDA9009014EA /* Assets.xcassets */,
 				9601172E2369BDA9009014EA /* Info.plist */,
 			);
@@ -77,9 +108,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 960117312369BDA9009014EA /* Build configuration list for PBXNativeTarget "Salon Spa Appointments app" */;
 			buildPhases = (
+				A2CCE4EB7ADFB89A54DBCAC6 /* [CP] Check Pods Manifest.lock */,
 				960117172369BDA6009014EA /* Sources */,
 				960117182369BDA6009014EA /* Frameworks */,
 				960117192369BDA6009014EA /* Resources */,
+				0650FBA25EF7413503AAEBC0 /* [CP] Embed Pods Frameworks */,
+				7501308F91061F8BB354F4C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,11 +164,71 @@
 			files = (
 				CC599FD82369C9D300D4BD96 /* LaunchScreen.storyboard in Resources */,
 				9601172A2369BDA9009014EA /* Assets.xcassets in Resources */,
+				966A680A23730B1900068810 /* GoogleService-Info-2.plist in Resources */,
 				960117282369BDA6009014EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0650FBA25EF7413503AAEBC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salon Spa Appointments app/Pods-Salon Spa Appointments app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salon Spa Appointments app/Pods-Salon Spa Appointments app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Salon Spa Appointments app/Pods-Salon Spa Appointments app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7501308F91061F8BB354F4C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salon Spa Appointments app/Pods-Salon Spa Appointments app-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salon Spa Appointments app/Pods-Salon Spa Appointments app-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Salon Spa Appointments app/Pods-Salon Spa Appointments app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2CCE4EB7ADFB89A54DBCAC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Salon Spa Appointments app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		960117172369BDA6009014EA /* Sources */ = {
@@ -143,6 +237,7 @@
 			files = (
 				960117252369BDA6009014EA /* SecondViewController.swift in Sources */,
 				960117232369BDA6009014EA /* FirstViewController.swift in Sources */,
+				96AB951723705C54008A932E /* ThirdViewController.swift in Sources */,
 				9601171F2369BDA6009014EA /* AppDelegate.swift in Sources */,
 				960117212369BDA6009014EA /* SceneDelegate.swift in Sources */,
 			);
@@ -278,6 +373,7 @@
 		};
 		960117322369BDA9009014EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 845E07F4624958DD6378715E /* Pods-Salon Spa Appointments app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +392,7 @@
 		};
 		960117332369BDA9009014EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4AEC13D4B58B8B7E15F8B6 /* Pods-Salon Spa Appointments app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
